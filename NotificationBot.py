@@ -220,7 +220,7 @@ def getMessage():
 @server.route("/")
 def webbhook():
     bot.remove_webhook()
-    bot.set_webhook(url='https://sleepy-beach-82257.herokuapp.com/' + bot_token)
+    bot.set_webhook(url='https://notifymebottelegram.herokuapp.com/' + bot_token)
     return "!", 200
 
 
