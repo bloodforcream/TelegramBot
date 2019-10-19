@@ -15,7 +15,7 @@ conn = sqlite3.connect("telebot.db", check_same_thread=False)
 # conn.row_factory = sqlite3.Row
 cursor = conn.cursor()
 
-bot_token = '804022003:AAFg5poLgl_X-ex7MOjFI5Wy5VR16GocvAQ'
+bot_token = '690634445:AAHtLz6-ussl5VYgKzgFvQJOYoFx1XGLNMM'
 
 bot = telebot.TeleBot(token=bot_token)
 
